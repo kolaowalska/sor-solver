@@ -1,1 +1,1 @@
-#sor-solver
+This project implements the Successive Over-Relaxation (SOR) method for solving systems of linear equations of the form $Ax = b$, where A is a sparse symmetric matrix with a banded structure, x is the solution vector, and $\omega$ is the right-hand side vector. It utilizes the iterative technique that builds upon the Gauss-Seidel method to accelerate convergence by introducing a relaxation parameter 𝜔, which allows the iterative updates to over-relax or under-relax, depending on the problem structure and choice of parameter value.
